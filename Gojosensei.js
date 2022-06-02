@@ -2027,7 +2027,7 @@ break
 	    })
 	    }
 	    break
-	    case 'yts': case 'ytsearch': {
+	    case 'getyt': {
                 if (!text) return replay(`Example : ${prefix + command} Anime Story Whatsapp`)
                 let yts = require("yt-search")
                 let search = await yts(text)
