@@ -3602,9 +3602,8 @@ case 'allmenu': {
 ┃╠${prefix}joox [query]
 ┃╠${prefix}soundcloud [url]
 ┃╠══✪「 SEARCHER 」 ☯︎
-┃╠${prefix}play [query]
-┃╠${prefix}song [query]
-┃╠${prefix}yts [query]
+┃╠${prefix}yt [query]
+┃╠${prefix}getyt [query]
 ┃╠${prefix}google [query]
 ┃╠${prefix}gimage [query]
 ┃╠${prefix}pinterest [query]
@@ -3959,9 +3958,8 @@ var unicorn = await getBuffer(picak+'Search Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
 ┃╔══✪「 SEARCHER 」	        
-┃╠${prefix}play [query]
-┃╠${prefix}song [query]
-┃╠${prefix}yts [query]
+┃╠${prefix}yt [query]
+┃╠${prefix}getyt [query]
 ┃╠${prefix}google [query]
 ┃╠${prefix}gimage [query]
 ┃╠${prefix}pinterest [query]
